@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>To Do</title>
+</head>
+<body>
+    <!--Formulário-->
+    <div>
+        <form method="post">
+            <input type="text" id="atividade" placeholder="Digite a sua atividade aqui">
+            <input type="date" id="dataAtv">
+            <input type="submit" id="btncadastrar" value="cadastrar">
+        </form>
+
+    </div>
+    <!--Lista-->
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Atividade</th>
+                <th>Data</th>
+                <th>Ação</th>
+            </tr>
+            </thead>
+            <tbody id="lista">
+                
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="todo.js"></script>
+
+
+</body>
+</html>
